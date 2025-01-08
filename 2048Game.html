@@ -224,7 +224,7 @@
                     const cell = cells[idx++];
                     const value = board[r][c];
                     cell.textContent = value ? value : '';
-                    cell.className = 'grid-cell'; // Reset class
+                    cell.className = 'grid-cell'; 
                     if (value) {
                         cell.classList.add('tile-' + value);
                     }
